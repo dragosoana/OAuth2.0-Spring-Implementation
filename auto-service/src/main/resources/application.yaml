@@ -1,0 +1,10 @@
+server:
+  port: 9099
+
+security:
+  oauth2:
+    client:
+       client-id: auto-server
+       client-secret: secret!
+    resource:
+      token-info-uri: http://localhost:8088/oauth/check_token
